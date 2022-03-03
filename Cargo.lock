@@ -5,3 +5,10 @@ version = 3
 [[package]]
 name = "apriori"
 version = "0.1.0"
+dependencies = [
+ "tokens_lib",
+]
+
+[[package]]
+name = "tokens_lib"
+version = "0.0.1"

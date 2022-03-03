@@ -1,0 +1,8 @@
+[package]
+name  = "tokens_lib"
+version = "0.0.1"
+authors = ["You"]
+
+[lib]
+name = "tokens_lib"
+path = "lib.rs"

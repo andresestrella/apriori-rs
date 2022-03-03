@@ -1,0 +1,61 @@
+>Para correr el algoritmo se debe instalar Rust
+https://www.rust-lang.org/tools/install
+
+>Situarse en el directorio del proyecto y usar el siguiente comando: cargo run transacciones.txt 2 0.50
+Argument 1 is the name of the txt file that holds the data set to be processed
+Argument 2 is the value of minimum support in integer
+Argument 3 is value of minimum confidence in decimal percentage 
+
+Ejemplo de salida con el comando anterior y el data set especificado en la practica:
+
+
+Item set: ["A", "B", "C", "D", "E", "F"]
+Number of Items: 6
+Number of transactions: 5
+A => support = 3
+B => support = 4
+C => support = 4
+D => support = 2
+E => support = 3
+Frequent Itemset: 2
+A B => support = 2
+A C => support = 3
+A D => support = 2
+B C => support = 3
+B E => support = 3
+C D => support = 2
+C E => support = 2
+Frequent Itemset: 3
+A B C => support = 2
+A C D => support = 2
+B C E => support = 2
+Frequent Itemset: 4
+Frequent Itemset: 5
+
+Association Rules for Frequent Itemset
+A -> B = Confidence = 66.66667 and Support = 2
+B -> A = Confidence = 50 and Support = 2
+A -> C = Confidence = 100 and Support = 3
+C -> A = Confidence = 75 and Support = 3
+A -> D = Confidence = 66.66667 and Support = 2
+D -> A = Confidence = 100 and Support = 2
+B -> C = Confidence = 75 and Support = 3
+C -> B = Confidence = 75 and Support = 3
+B -> E = Confidence = 75 and Support = 3
+E -> B = Confidence = 100 and Support = 3
+C -> D = Confidence = 50 and Support = 2
+D -> C = Confidence = 100 and Support = 2
+C -> E = Confidence = 50 and Support = 2
+E -> C = Confidence = 66.66667 and Support = 2
+A ->  B C = Comfidemce = 66.66667 and Support = 2
+B C -> A = Comfidemce = 66.66667 and Support = 2
+A B ->  C = Comfidemce = 100 and Support = 2
+C -> A B = Comfidemce = 50 and Support = 2
+A ->  C D = Comfidemce = 66.66667 and Support = 2
+C D -> A = Comfidemce = 100 and Support = 2
+A C ->  D = Comfidemce = 66.66667 and Support = 2
+D -> A C = Comfidemce = 100 and Support = 2
+B ->  C E = Comfidemce = 50 and Support = 2
+C E -> B = Comfidemce = 100 and Support = 2
+B C ->  E = Comfidemce = 66.66667 and Support = 2
+E -> B C = Comfidemce = 66.66667 and Support = 2
