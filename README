@@ -1,13 +1,13 @@
->Para correr el algoritmo se debe instalar Rust
+>To run the algorythm you must first install Rust.
 https://www.rust-lang.org/tools/install
 
->Situarse en el directorio del proyecto y usar el siguiente comando: cargo run transacciones.txt 2 0.50
-Argument 1 es el nombre del archivo de texto que contiene el data set que sera procesado. Debe estar en el directorio principal del proyecto.
-Argument 2 es el valor entero del soporte minimo
-Argument 3 es el valor en porciento decimal de la confianza minima 
+>Inside the project directory use the following command: cargo run transacciones.txt 2 0.50
+Argument 1 si the text file that contains the data set to be processed. .txt must be in project root.
+Argument 2 is integer value that represents minimum support.
+Argument 3 is a decimal value between 0 and 1 that represents minimum confidence percentage.
 
-Ejemplo de salida con el comando anterior y el data set especificado en la practica:
 
+Output example using the command mentioned above and sample data set provided.
 
 Item set: ["A", "B", "C", "D", "E", "F"]
 Number of Items:6
