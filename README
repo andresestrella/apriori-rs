@@ -1,8 +1,8 @@
->To run the algorythm you must first install Rust.
+>To run the algorithm you must first install Rust.
 https://www.rust-lang.org/tools/install
 
 >Inside the project directory use the following command: cargo run transacciones.txt 2 0.50
-Argument 1 si the text file that contains the data set to be processed. .txt must be in project root.
+Argument 1 is the text file that contains the data set to be processed. .txt must be in project root.
 Argument 2 is integer value that represents minimum support.
 Argument 3 is a decimal value between 0 and 1 that represents minimum confidence percentage.
 
