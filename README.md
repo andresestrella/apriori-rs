@@ -1,14 +1,18 @@
->To run the algorithm you must first install Rust.
-https://www.rust-lang.org/tools/install
+# How to run 
+Install [Rust](https://www.rust-lang.org/tools/install) 
 
->Inside the project directory use the following command: cargo run transacciones.txt 2 0.50
-Argument 1 is the text file that contains the data set to be processed. .txt must be in project root.
-Argument 2 is integer value that represents minimum support.
-Argument 3 is a decimal value between 0 and 1 that represents minimum confidence percentage.
+In project root run `cargo run transacciones.txt 2 0.50`  
+Argument 1 is the text file that contains the data set to be processed. .txt must be in project root.  
+Argument 2 is integer value that represents minimum support.  
+Argument 3 is a decimal value between 0 and 1 that represents minimum confidence percentage.  
 
 
-Output example using the command mentioned above and sample data set provided.
+# Example run
+Output example for this command: `cargo run transacciones.txt 2 0.50`
+The sample data set `transacciones.txt` provided in the repo is used.
 
+Output:
+```
 Item set: ["A", "B", "C", "D", "E", "F"]
 Number of Items:6
 Number of transactions: 5
@@ -59,3 +63,4 @@ B ->  C E = Comfidemce = 50 and Support = 2
 C E -> B = Comfidemce = 100 and Support = 2
 B C ->  E = Comfidemce = 66.66667 and Support = 2
 E -> B C = Comfidemce = 66.66667 and Support = 2
+```
